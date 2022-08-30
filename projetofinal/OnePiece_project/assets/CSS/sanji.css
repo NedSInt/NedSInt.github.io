@@ -1,10 +1,10 @@
 @font-face {
     font-family: go3v2;
-    src: url(/assets/fonts/go3v2.ttf);
+    src: url(../fonts/go3v2.ttf);
   }
   @font-face {
     font-family: AftikaBold;
-    src: url(/assets/fonts/FontsFree-Net-AftikaBold.ttf);
+    src: url(../fonts/FontsFree-Net-AftikaBold.ttf);
   }
   body{
     margin: 0;
