@@ -1,8 +1,8 @@
-@import url(/assets/css/global.css);
-@import url(/assets/css/reset.css);
-@import url(/assets/css/responsive-navbar.css);
+@import url(./global.css);
+@import url(./reset.css);
+@import url(./responsive-navbar.css);
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
-@import url(/assets/css/sobre-card.css);
+@import url(./sobre-card.css);
 
 
 .text p {
