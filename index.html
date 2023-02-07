@@ -1,86 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>One Piece</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Script de Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- CSS slide -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+
+    <title>Jhonatan Pacheco</title>
 </head>
 <body>
-    <main>
-        <header>
-            <nav>
-                <ul>
-                    <li>Profile</li>
-                    <li>Arc</li>
-                    <li>Anime</li>
-                </ul>
-            </nav>
-            <section class="luffy">
-                <img src="./assets/image/luffy.png" alt="Luffy Principal">
-            </section>
+    
+    <header>
+        <nav>
+            <a class ="logo" href="/">&lsaquo;JP/&rsaquo;</a>
 
-            <div class="logo">
-                <img src="/assets/image/logo.png" alt="logo">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        </header>
-        
-        <article>
-            <section class="conteudo">
-                <h3>Straw Hat Pirate</h3>
-                <h1>Monkey D. Luffy</h1>
-                <p>"Heróis? Não! Nós somos piratas! Eu amo heróis, mas eu não quero ser um! Você sabe o que são heróis? Diga que há um pedaço de carne. 
-                Piratas terão um banquete e comerão. Mas os heróis irão compartilhar com outras pessoas... Eu quero toda a carne!"</p>
-                <button>Watch Story ▶</button>
+
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Tecnologias</a></li>
+                <li><a href="/">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section class="home">
+                <div class="text">
+                    <p>Eae, eu sou o</p>
+                    <h2 class="line typing-animation">Jhonatan Pacheco!!</h2>
+                    <p>Desenvolvedor Front-End</p>
+                </div>
+                <figure>
+                    <img id = "programmer" src="/assets/img/programmer.png" alt="programador">
+                </figure>
             </section>
 
-            <section class="type">
-                <nav>
-                    <ul>
-                        <li>Normal Mode</li>
-                        <li>Gear 1 Mode</li>
-                        <li>Gear 2 Mode</li>
-                    </ul>
-                </nav>
-        </section>
-        </article>
-        
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previous image">◀</button>
-            <button class="arrow-right control" aria-label="Next Image">▶</button>
-            <div class="gallery-wrapper">
-              <div class="gallery">
-                
-                <a href="/assets/pages/zoro.html"> 
-                    <img src="/assets/image/zoro-sorriso.jpg" alt="zoro-sorriso" class="item current-item">
-                </a>
 
-                <a href="/assets/pages/nami.html">
-                    <img src="/assets/image/nami-sorrindo.jpg" alt="Nami-sorriso" class="item current-item">
-                </a>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+    </main>
 
-                <a href="/assets/pages/ussop.html">
-                    <img src="/assets/image/ussop-sorrindo.jpg" alt="Ussop-sorriso" class="item current-item">
-                </a>
 
-                <a href="/assets/pages/sanji.html">
-                    <img src="/assets/image/sanji-sorrindo.jpg" alt="Sanji-sorriso" class="item current-item">
-                </a>
-                
-                <a href="/assets/pages/robin.html">
-                    <img src="/assets/image/robin-sorrindo.jpg" alt="Robin-sorriso" class="item current-item">
-                </a>
-
-                <a href="/assets/pages/chopper.html">
-                    <img src="/assets/image/chopper-sorriso.jpg" alt="Chopper-sorriso" class="item current-item">
-                </a>
-
-                
+    <section class="sobre">
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+      
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="/assets/img/planet.png" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title">Sobre Mim</div>
+              <div class="blog-slider__text">Tenho 20 anos e estou em busca de uma oportunidade no mercado de trabalho em áreas relacionadas a tecnologia da informação.
+                Com algumas experiências como jovem aprendiz, estou a procura de um crescimento profissional, agora relacionado a minha área de formação. 
             </div>
             </div>
           </div>
-          <script src="/script.js"></script>
-    </main>
+          
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="/assets/img/mart.png" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title">formação</div>
+              <div class="blog-slider__text">
+                - Bacharelado em Sistemas de informação (CEFET-RJ)<br>
+                - Curso Web Moderno Completo (UDEMY) <br>
+                - Curso VueJs 2 - O Guia completo (UDEMY)
+                                            
+              </div>
+            </div>
+          </div>
+          
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="/assets/img/venus.png" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title">Contato</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+              <a href="https://www.linkedin.com/in/jhonatan-pacheco-profissional/" target="_blank" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+    </section>
+
+    <section class="skills">
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+      <article class="card-skill">
+        <img src="/assets/img/css3.svg" alt="" srcset="">
+      </article>
+
+    </section>
+
+    <script src="/assets/js/mobile-navbar.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="/assets/js/slide-card.js"></script>
+
 </body>
 </html>
