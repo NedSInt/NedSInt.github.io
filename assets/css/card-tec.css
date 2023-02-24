@@ -1,0 +1,30 @@
+.tecnologias {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.t-header {
+  text-align: center;
+  margin: 30px;
+}
+.t-header h2 {
+  font-size: 2rem;
+}
+.t-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+
+.t-tec {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  background-color: var(--primary-color);
+  border-radius: 20px 20px 2px 20px;
+}
+.t-text {
+  font-size: 0.8rem;
+}

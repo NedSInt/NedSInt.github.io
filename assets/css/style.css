@@ -5,6 +5,7 @@
 @import url(/assets/css/responsive-navbar.css);
 @import url(/assets/css/sobre-card.css);
 @import url(/assets/css/card-projects.css);
+@import url(/assets/css/card-tec.css);
 .text p {
   font-size: 1.3rem;
 }
