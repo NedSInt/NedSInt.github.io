@@ -21,6 +21,10 @@ main {
 .sobre {
   background: #ffffff;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .p-container {
   background-image: linear-gradient(

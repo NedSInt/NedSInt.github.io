@@ -8,6 +8,8 @@
     <!-- Script de Scroll -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <script defer src="/assets/js/mobile-navbar.js"></script>
+
     <!-- CSS slide -->
     <link
       rel="stylesheet"
@@ -20,9 +22,9 @@
   <body>
     <header>
       <nav>
-        <a class="logo" href="/">&lsaquo;JP/&rsaquo;</a>
+        <a class="logo" href="/">&lsaquo;Bem vindo/&rsaquo;</a>
 
-        <div class="mobile-menu">
+        <!-- <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
@@ -34,7 +36,7 @@
           <li><a href="#">Tecnologias</a></li>
           <li><a href="#">Projetos</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <main>
       <section class="home">
@@ -59,11 +61,16 @@
     </main>
 
     <section class="sobre">
+      <div class="s-header">
+        <h2 class="s-title">&lsaquo; sobre &rsaquo;</h2>
+        <p class="s-text">Conheça um pouco mais sobre mim!</p>
+      </div>
+
       <div class="blog-slider">
         <div class="blog-slider__wrp swiper-wrapper">
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="/assets/img/planet.png" alt="" />
+              <img src="/assets/img/space-man.png" alt="" />
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">Sobre Mim</div>
@@ -79,7 +86,7 @@
 
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="/assets/img/mart.png" alt="" />
+              <img src="/assets/img/space-man.png" alt="" />
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">formação</div>
@@ -93,7 +100,7 @@
 
           <div class="blog-slider__item swiper-slide">
             <div class="blog-slider__img">
-              <img src="/assets/img/venus.png" alt="" />
+              <img src="/assets/img/space-man.png" alt="" />
             </div>
             <div class="blog-slider__content">
               <div class="blog-slider__title">Contato</div>
@@ -113,7 +120,6 @@
         <div class="blog-slider__pagination"></div>
       </div>
     </section>
-
     <section class="p-container">
       <div class="p-card p-card-1">
         <div class="p-card-header">
@@ -174,12 +180,31 @@
           >
         </div>
       </div>
+      <div class="p-card p-card-1">
+        <div class="p-card-header">
+          <img class="p-card-img" src="/assets/img/RickMorty.webp" alt="" />
+        </div>
+        <div class="p-card-body">
+          <h3 class="p-card-title">Memory Game - Rick and Morty</h3>
+          <p class="p-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            doloremque sequi fugiat blanditiis ea eius tenetur quasi omnis non
+            dicta sunt dolorum, et repellendus nam vero magni, adipisci eum
+            aliquam?
+          </p>
+        </div>
+        <div class="p-card-footer">
+          <a href="https://rickandmorty-memorygame.netlify.app/" target="_blank"
+            >Ver mais</a
+          >
+        </div>
+      </div>
     </section>
 
     <section class="tecnologias">
       <div class="t-header">
-        <h2>Tecnologias</h2>
-        <p>
+        <h2 class="tec-title">&lsaquo; Tecnologias &rsaquo;</h2>
+        <p class="tec-text">
           Essas são as principais habilidades e tecnologias que mais utilizo!
         </p>
       </div>
@@ -228,7 +253,6 @@
       </div>
     </section>
 
-    <script src="/assets/js/mobile-navbar.js"></script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"
